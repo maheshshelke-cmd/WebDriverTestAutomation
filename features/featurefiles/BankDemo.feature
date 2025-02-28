@@ -20,6 +20,7 @@ Feature: Bank Demo test
     Then I check the transaction history for the month <month>
     # glit clone modification
     # git clone second modification 
+    # git clone third modification
       
     Examples:
     | homePage                                         | username      | password    | account number | month       |
