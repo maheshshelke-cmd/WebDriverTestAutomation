@@ -18,7 +18,8 @@ Feature: Bank Demo test
     And I enter the password <password>
     Then I click on the <account number>
     Then I check the transaction history for the month <month>
-    # glit clone modification 
+    # glit clone modification
+    # git clone second modification 
       
     Examples:
     | homePage                                         | username      | password    | account number | month       |
