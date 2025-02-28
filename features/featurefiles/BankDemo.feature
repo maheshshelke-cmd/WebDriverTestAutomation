@@ -18,7 +18,8 @@ Feature: Bank Demo test
     And I enter the password <password>
     Then I click on the <account number>
     Then I check the transaction history for the month <month>
+    # glit clone modification 
       
     Examples:
     | homePage                                         | username      | password    | account number | month       |
-    | https://parabank.parasoft.com/parabank/index.htm | testuser706   | welcome123  | 12345         |  February   |
+    | https://parabank.parasoft.com/parabank/index.htm | testuser706   | welcome123  | 12345          |  February   |
