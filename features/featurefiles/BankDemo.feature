@@ -22,6 +22,7 @@ Feature: Bank Demo test
     # git clone second modification 
     # git clone third modification
     # changes made in localA branch 
+    # last changes made in master
       
     Examples:
     | homePage                                         | username      | password    | account number | month       |
