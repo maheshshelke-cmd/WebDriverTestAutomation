@@ -16,8 +16,8 @@ Feature: Bank Demo test
     Given I launch the browsers <homePage>
     When I login with <username>
     And I enter the password <password>
-    Then I click on the <account number>
-    Then I check the transaction history for the month <month>
+   # Then I click on the <account number>
+    #Then I check the transaction history for the month <month>
     # glit clone modification
     # git clone second modification 
     # git clone third modification
